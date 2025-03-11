@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #222; /* Dark grey background */
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.logo {
+    max-width: 20vw;
+    max-height: auto;
+    margin: 1vh;
+}
+
+.msgbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 56vw;
+  height: 24vh;
+  background-image: url('msg.jpg');
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'W95FA';
+  src: url('w95fa.woff2') format('woff2'),
+       url('w95fa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.msgtext{
+  margin-left: 1vh;
+  margin-right: 1vh;
+  font-size: 1.2vw;
+  font-family: W95FA;
+}
+
+.cat{
+  width: 25vw;
+  height: auto;
+  margin: 1vw;
+}
