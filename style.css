@@ -4,26 +4,14 @@
 }
 
 body {
+    font-family: Tiny5;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #222; /* Dark grey background */
-}
-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-}
-
-.logo {
-    max-width: 20vw;
-    max-height: auto;
-    margin: 1vh;
+    background-color: #13084a;
 }
 
 .msgbox{
@@ -32,29 +20,23 @@ canvas {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 56vw;
-  height: 24vh;
-  background-image: url('msg.jpg');
-  background-size: cover;
-}
-
-@font-face {
-  font-family: 'W95FA';
-  src: url('w95fa.woff2') format('woff2'),
-       url('w95fa.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  border-radius:15px;
+  margin:15px;
+  background-color: #584a9e;
 }
 
 .msgtext{
   margin-left: 1vh;
   margin-right: 1vh;
   font-size: 1.2vw;
-  font-family: W95FA;
+  font-family: Tiny5;
 }
 
-.cat{
-  width: 25vw;
-  height: auto;
-  margin: 1vw;
+.logo{
+  margin: 10px;
+}
+
+.image{
+  max-width:800px;
+  max-height:auto;
 }
