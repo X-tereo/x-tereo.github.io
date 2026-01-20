@@ -1,0 +1,33 @@
+body{
+    background-color: #202020;
+    font-family: Tiny5;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 5vw;
+    gap: 5vw;
+}
+
+.navbar{
+    background-image: url(redmetro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link{
+    font-size: large;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.btn-primary{
+    border-radius: 0;
+}

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+  font-family: Tiny5;
+  font-size: 2rem;
+  color: white;
+  background-color:blue;
+  padding: 1rem;
+  border-style: dashed;
+  border-width: 0.3rem;
+  border-color: dodgerblue;
+  transition: ease-in-out 100ms;
+  cursor: pointer;
+}
+
+button:hover{
+  font-family: Tiny5;
+  font-size: 3rem;
+  color: white;
+  background-color:blue;
+  padding: 1rem;
+  border-style: dashed;
+  border-width: 0.3rem;
+  border-color: dodgerblue;
+  cursor: pointer;
+}
+
+.main{
+    font-family: Tiny5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #13084a;
+}
+
+.logo{
+  margin: 10px;
+}
+
+.image{
+  max-width:800px;
+  max-height:auto;
+}
+
+.navbar{
+    background-image: url(redmetro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link{
+    font-size: large;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+body{
+    font-family: Tiny5;
+}
