@@ -16,6 +16,27 @@ button{
   cursor: pointer;
 }
 
+.robsimgs{
+  display: flex;
+  flex-direction: row;
+}
+
+.message{
+  width: 90vw;
+  height: auto;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 15px;
+}
+
+.message p{
+  padding: 1vw;
+}
+
+.message h1{
+  padding: 1vw;
+}
+
 button:hover{
   font-family: Tiny5;
   font-size: 3rem;
