@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+  font-family: Tiny5;
+  font-size: 2rem;
+  color: white;
+  background-color:blue;
+  padding: 1rem;
+  border-style: dashed;
+  border-width: 0.3rem;
+  border-color: dodgerblue;
+  transition: ease-in-out 100ms;
+  cursor: pointer;
+}
+
+.robsimgs{
+  display: flex;
+  flex-direction: row;
+}
+
+.message{
+  width: 90vw;
+  height: auto;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 15px;
+}
+
+.message p{
+  padding: 1vw;
+}
+
+.message h1{
+  padding: 1vw;
+}
+
+button:hover{
+  font-family: Tiny5;
+  font-size: 3rem;
+  color: white;
+  background-color:blue;
+  padding: 1rem;
+  border-style: dashed;
+  border-width: 0.3rem;
+  border-color: dodgerblue;
+  cursor: pointer;
+}
+
+.main {
+    background-color: #13084a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-frame {
+    width: 100%;
+    max-width: 1152px;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.logo{
+  margin: 10px;
+}
+
+.image{
+  max-width:800px;
+  max-height:auto;
+}
+
+.navbar{
+    background-image: url(redmetro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link{
+    font-size: large;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+body{
+    font-family: Tiny5;
+}
